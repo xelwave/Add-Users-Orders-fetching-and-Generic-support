@@ -1,3 +1,4 @@
+export {};
 type Order = {
   id: number;
   total: number;
@@ -25,3 +26,4 @@ async function getOrderData(orderId: number): Promise<Order> {
 }
 
 getOrderData(1);
+// small fixss
