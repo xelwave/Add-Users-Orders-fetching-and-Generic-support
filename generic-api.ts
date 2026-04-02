@@ -1,3 +1,4 @@
+export {};
 type Order = {
   id: number;
   total: number;
